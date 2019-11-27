@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css?family=Cabin+Condensed:400,500,600,700&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: slategray;
+}
+
+header {
+  background: white;
+  padding: 20px;
+}
+
+header > h1 {
+  color: slategray;
+  text-align: center;
+  font-family: Cabin Condensed, sans-serif;
+}
+
+
+.scores {
+  margin: 20px auto;
+  border: 3px solid white;
+  border-radius: 4px;
+  text-align: center;
+  width: 200px;
+  color: white;
+  font-size: 40px;
+  padding: 15px 20px;
+  font-weight: bold;
+  font-family: Cabin Condensed, sans-serif;
+  position: relative;
+}
+
+.badge {
+  background: black;
+  color: white;
+  font-size: 14px;
+  padding: 4px 15px;
+  font-weight: bold;
+  font-family: Cabin Condensed, sans-serif;
+}
+
+#you-title {
+  position: absolute;
+  top: 25px;
+  left: -30px;
+}
+
+#cpu-title {
+  position: absolute;
+  top: 25px;
+  right: -30px;
+}
+
+.result {
+  font-size: 40px;
+  color: white;
+}
+
+.result > p {
+  text-align: center;
+  font-weight: bold;
+  font-family: Cabin Condensed, sans-serif;
+}
+
+.choices {
+  margin: 50px 0;
+  text-align: center;
+}
+
+.choice {
+  border: 4px solid white;
+  border-radius: 50%;
+  margin: 0 20px;
+  padding: 15px;
+  display: inline-block;
+  transition: all 0.2s ease;
+}
+
+.choice:hover {
+  background: white;
+  cursor: pointer;
+
+}
+
+#action-message {
+  text-align: center;
+  color: white;
+  font-family: Cabin Condensed, sans-serif;
+  font-weight: bold;
+  font-size: 20px;
+}
